@@ -121,7 +121,7 @@ struct TriviaView: View {
         .task {
             await triviaViewModel.getData()
             if !isGameOver {
-                playSound(soundName: "gameSound")
+                playSound(soundName: "gameSound ")
             }
         }
     }
