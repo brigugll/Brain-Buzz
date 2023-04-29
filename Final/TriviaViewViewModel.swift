@@ -109,7 +109,7 @@ class TriviaViewViewModel: ObservableObject {
         for (entity, character) in entities {
             result = result.replacingOccurrences(of: entity, with: character)
         }
-        
+        print("converted")
         return result
     }
     

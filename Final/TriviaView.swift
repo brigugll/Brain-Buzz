@@ -94,7 +94,7 @@ struct TriviaView: View {
                 
                 
                 .alert(isPresented: $turnOff) {
-                    if score >= 3 || currentQuestionIndex == 29 {
+                    if score >= 3 || currentQuestionIndex >= 29 {
                         return Alert(
                             title: Text("ALARM OFF"),
                             message: Text("Have a great morning!"),
